@@ -3,102 +3,167 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Page</title>
+    <title>Roman Kostiukov | Fullstack .NET & Angular Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="site.css" />
 </head>
 <body>
-    <header class="header-section">
-        <div class="container">
-            <h1>Hello, I'm Roman Kostiukov !</h1>
-            <h1>.Net Developer</h1>
+
+    <header class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="status-badge">
+                    <span class="dot"></span> Open to new opportunities
+                </div>
+                <h1>Hi, I'm <span class="highlight">Roman Kostiukov</span></h1>
+                <p class="subtitle">Fullstack Software Engineer specializing in <span class="accent-text">.NET 8/9</span> & <span class="accent-text">Angular</span></p>
+                <p class="description">
+                    I build resilient backend architectures, high-performance Web APIs, and dynamic single-page applications. 
+                    Obsessed with clean code, modern engineering practices, and solid user experiences.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="https://t.me/k057yl" target="_blank" class="btn btn-primary">
+                        <i class="fa-brands fa-telegram"></i> Get in Touch
+                    </a>
+                    <a href="https://github.com/k057yl" target="_blank" class="btn btn-secondary">
+                        <i class="fa-brands fa-github"></i> GitHub Profile
+                    </a>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section class="about-section">
+    <section class="section tech-section">
         <div class="container">
-            <h2>About Me</h2>
-            <p class="greeting-text">
-                I specialize in backend and web development. My goal is to create efficient, scalable, and user-friendly solutions.
-                I work primarily with technologies such as C#, .NET Core, ASP.NET Core, Entity Framework, SQL Server (MSSQL), PostgreSQL,
-                and RESTful APIs.
-                For frontend development, I use HTML, CSS, JavaScript, and Bootstrap to ensure the best user experience.
-            </p>
-        </div>
-    </section>
+            <h2 class="section-title"><i class="fa-solid fa-layer-group"></i> Tech Stack & Expertise</h2>
+            
+            <div class="tech-grid">
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-server"></i></div>
+                    <h3>Backend Engineering</h3>
+                    <div class="tags">
+                        <span class="tag tag-accent">C# / .NET 8 & 9</span>
+                        <span class="tag">ASP.NET Core Web API</span>
+                        <span class="tag">Entity Framework Core</span>
+                        <span class="tag">Dapper</span>
+                        <span class="tag">MediatR (CQRS)</span>
+                        <span class="tag">PostgreSQL / MSSQL</span>
+                        <span class="tag">JWT / OAuth2</span>
+                        <span class="tag">RESTful Architecture</span>
+                    </div>
+                </div>
 
-    <section class="tech-stack-section">
-        <h2>Technologies I Use</h2>
-        <div class="container">
-            <div class="tech-category">
-                <h3>Backend</h3>
-                <ul>
-                    <li>C#</li>
-                    <li>.NET Core</li>
-                    <li>ASP.NET Core</li>
-                    <li>Entity Framework Core</li>
-                    <li>SQL Server (MSSQL)</li>
-                    <li>PostgreSQL</li>
-                    <li>RESTful APIs</li>
-                    <li>Docker</li>
-                </ul>
-            </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Frontend Engineering</h3>
+                    <div class="tags">
+                        <span class="tag tag-accent">Angular (Standalone)</span>
+                        <span class="tag">TypeScript / RxJS</span>
+                        <span class="tag">Angular Signals</span>
+                        <span class="tag">HTML5 / SCSS / CSS3</span>
+                        <span class="tag">Bootstrap / Tailwind</span>
+                        <span class="tag">State Management</span>
+                    </div>
+                </div>
 
-            <div class="tech-category">
-                <h3>Frontend</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Bootstrap</li>
-                </ul>
-            </div>
-
-            <div class="tech-category">
-                <h3>Development</h3>
-                <ul>
-                    <li>SOLID</li>
-                    <li>KISS</li>
-                    <li>DRY</li>
-                    <li>Dependency Injection</li>
-                </ul>
-            </div>
-
-            <div class="tech-category">
-                <h3>Tools</h3>
-                <ul>
-                    <li>Git / GitHub</li>
-                    <li>JIRA / Trello</li>
-                </ul>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-cubes"></i></div>
+                    <h3>Architecture & Tools</h3>
+                    <div class="tags">
+                        <span class="tag">Vertical Slice Architecture</span>
+                        <span class="tag">Clean Architecture</span>
+                        <span class="tag">SOLID / KISS / DRY</span>
+                        <span class="tag tag-accent">Docker & Docker Compose</span>
+                        <span class="tag">Git / GitHub Actions</span>
+                        <span class="tag">Nginx Reverse Proxy</span>
+                        <span class="tag">Linux / Bash</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="contact-social-section">
-        <h2>Contact & Social Media</h2>
+    <section class="section projects-section">
         <div class="container">
-            <div class="contact-category">
-                <h3>Contact</h3>
-                <ul>
-                    <li>Email: <a href="mailto:romank057yl@gmail.com">romank057yl@gmail.com</a></li>
-                    <li>Phone: <a href="tel:+380631467392">+380631467392</a></li>
-                </ul>
+            <h2 class="section-title"><i class="fa-solid fa-rocket"></i> Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-box-archive project-icon"></i>
+                        <span class="project-badge">Live Production</span>
+                    </div>
+                    <h3>INest (Karakatsiya) — Inventory & Asset SaaS</h3>
+                    <p>
+                        Fullstack SaaS web application for personal item tracking, hierarchical storage management, 
+                        sales analytics, and item lending lifecycle. Features Telegram Bot integration for automated notifications.
+                    </p>
+                    <div class="project-tech">
+                        <span>.NET 8 API</span>
+                        <span>Angular</span>
+                        <span>PostgreSQL</span>
+                        <span>Docker</span>
+                        <span>Nginx</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://karakatsiya.com" target="_blank" class="project-link"><i class="fa-solid fa-globe"></i> Visit Live App</a>
+                        <a href="https://github.com/k057yl" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source Code</a>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <div class="social-category">
-                <h3>Social Media</h3>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/роман-костюков-116aa8254" target="_blank">LinkedIn</a></li>
-                    <li><a href="https://github.com/k057yl" target="_blank">GitHub</a></li>
-                    <li><a href="https://t.me/k057yl" target="_blank">Telegram</a></li>
-                </ul>
+    <section class="section contact-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-paper-plane"></i> Let's Connect</h2>
+            <p class="section-subtext">Feel free to reach out for collaboration, job offers, or technical queries.</p>
+
+            <div class="contact-cards">
+                <a href="mailto:romank057yl@gmail.com" class="contact-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <span class="contact-label">Email</span>
+                        <span class="contact-val">romank057yl@gmail.com</span>
+                    </div>
+                </a>
+
+                <a href="https://t.me/k057yl" target="_blank" class="contact-card">
+                    <i class="fa-brands fa-telegram"></i>
+                    <div>
+                        <span class="contact-label">Telegram</span>
+                        <span class="contact-val">@k057yl</span>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD-%D0%BA%D0%BE%D1%81%D1%82%D1%8E%D0%BA%D0%BE%D0%B2-116aa8254" target="_blank" class="contact-card">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <div>
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-val">Roman Kostiukov</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/k057yl" target="_blank" class="contact-card">
+                    <i class="fa-brands fa-github"></i>
+                    <div>
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-val">github.com/k057yl</span>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p class="footer-text">&copy; 2025 Roman Kostiukov. All rights reserved.</p>
+        <div class="container footer-content">
+            <p>&copy; 2026 Roman Kostiukov. Built with passion & .NET spirit.</p>
         </div>
     </footer>
+
 </body>
 </html>
